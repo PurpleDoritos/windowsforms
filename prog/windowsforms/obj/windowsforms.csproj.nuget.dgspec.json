@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vernoldkun\\Documents\\prog\\windowsforms\\windowsforms.csproj": {}
+    "C:\\Users\\vernoldkun\\Documents\\gitfromwinforms\\windowsforms\\prog\\windowsforms\\windowsforms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vernoldkun\\Documents\\prog\\windowsforms\\windowsforms.csproj": {
+    "C:\\Users\\vernoldkun\\Documents\\gitfromwinforms\\windowsforms\\prog\\windowsforms\\windowsforms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vernoldkun\\Documents\\prog\\windowsforms\\windowsforms.csproj",
+        "projectUniqueName": "C:\\Users\\vernoldkun\\Documents\\gitfromwinforms\\windowsforms\\prog\\windowsforms\\windowsforms.csproj",
         "projectName": "windowsforms",
-        "projectPath": "C:\\Users\\vernoldkun\\Documents\\prog\\windowsforms\\windowsforms.csproj",
+        "projectPath": "C:\\Users\\vernoldkun\\Documents\\gitfromwinforms\\windowsforms\\prog\\windowsforms\\windowsforms.csproj",
         "packagesPath": "C:\\Users\\vernoldkun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vernoldkun\\Documents\\prog\\windowsforms\\obj\\",
+        "outputPath": "C:\\Users\\vernoldkun\\Documents\\gitfromwinforms\\windowsforms\\prog\\windowsforms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vernoldkun\\AppData\\Roaming\\NuGet\\NuGet.Config"
