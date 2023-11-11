@@ -1,4 +1,4 @@
-﻿<Window x:Class="TaskManager.MainWindow"
+﻿<Window x:Class="TaskManager.MyTaskModel"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -17,7 +17,7 @@
         <Button x:Name="AddTaskButton" Content="Add Task" Click="AddTask_Click" />
         <Button x:Name="EditTaskButton" Content="Edit Task" Click="EditTask_Click" />
         <Button x:Name="DeleteTaskButton" Content="Delete Task" Click="DeleteTask_Click" />
-       
+       <TextBox x:Name="DescriptionTextBox" />
 
         <!-- Controls for categories -->
         <ComboBox x:Name="CategoryComboBox" ItemsSource="{Binding Categories}" DisplayMemberPath="Name" SelectedValuePath="Id" />

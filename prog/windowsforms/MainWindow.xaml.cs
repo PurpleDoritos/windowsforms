@@ -6,23 +6,16 @@ using System.IO;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;   // ObservableCollection
 
-
-public partial class MyTaskViewModel
+namespace TaskManager;
+public partial class MyTaskViewModel : Window
 {
-    public partial class MainWindow : Window
+    private TaskViewModel _viewModel;
+    public MyTaskViewModel()
     {
-        private TaskViewModel _viewModel;
-
-        public MainWindow()
-        {
-            InitializeComponent();
-            _viewModel = new TaskViewModel();
-            DataContext = _viewModel;
-        }
-
-        // Other event handlers and methods...
+      
+        _viewModel = new TaskViewModel();
+        DataContext = _viewModel;
     }
-
     private void AddTaskButton_Click(object sender, RoutedEventArgs e)
     {
         try
@@ -215,7 +208,7 @@ public partial class MyTaskViewModel
     }
 
 
-
-
 }
+
+
 
